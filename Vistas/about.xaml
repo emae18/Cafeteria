@@ -1,0 +1,50 @@
+﻿<Window x:Class="Vistas.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Acerca de" Height="300" Width="470" ResizeMode="NoResize" Icon="/Vistas;component/Resources/Images/Icons/app-icon.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Background="#F4F4F4">
+            <TextBlock Height="10" Name="textBlock11" Text="" />
+            <Border BorderBrush="Gray" BorderThickness="2" Width="100">
+                <Image Height="130" Width="100" Name="image1" Stretch="Fill" Source="/Vistas;component/Resources/Images/unju.jpg" />
+            </Border>
+            <TextBlock Height="20" Name="textBlock10" Text="" />
+            <TextBlock TextWrapping="Wrap" TextAlignment="Center" FontSize="12" FontFamily="Verdana" FontWeight="Bold">Facultad de Ingeniería</TextBlock>
+            <TextBlock Margin="0,10,0,0" TextWrapping="Wrap" Text="Universidad Nacional de Jujuy" TextAlignment="Center"  FontSize="12" FontFamily="Verdana" FontWeight="Bold" Height="32"></TextBlock>
+            <TextBlock Margin="0,10" Name="textBlock9" Text="  Ver 1.6.5" TextWrapping="Wrap" />
+        </StackPanel>
+
+        <GroupBox Header="ACERCA DE" Height="219" HorizontalAlignment="Left" Margin="9,0,0,35" Name="gbAcercaDe" VerticalAlignment="Bottom" Width="280" Grid.Column="1" Grid.ColumnSpan="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="18*" />
+                    <ColumnDefinition Width="250*" />
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="1" Height="186" HorizontalAlignment="Left" Name="stackPanel1" VerticalAlignment="Top" Width="233">
+                    <TextBlock Height="15" Name="textBlock2" Text="Sistema de Cafetería" TextDecorations="Underline" TextAlignment="Center" FontWeight="Bold" />
+                    <Image Height="162" Name="image2" Stretch="Fill" Width="214" Source="/Vistas;component/Resources/Images/cafe.jpg">
+                        
+                    </Image>
+                </StackPanel>
+                
+            </Grid>
+        </GroupBox>        
+        <Button Style="{StaticResource ResourceKey=btn_style}" VerticalAlignment="Bottom" HorizontalAlignment="Left" Content="Aceptar" Name="btnAceptar" Grid.Column="1" Margin="49,0,0,7" Click="btnAceptar_Click" Width="100" Height="25">
+            <Button.Tag>
+                <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.check.png</ImageSource>
+            </Button.Tag>
+        </Button>
+        <Button Style="{StaticResource ResourceKey=btn_style}" VerticalAlignment="Bottom" HorizontalAlignment="Left" Content="Ver Video" Name="btnVerVideo" Grid.Column="2" Margin="17,0,0,7" Width="100" Height="25" Click="btnVerVideo_Click">
+            <Button.Tag>
+                <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.control.play.live.png</ImageSource>
+            </Button.Tag>
+        </Button>
+    </Grid>
+    
+</Window>

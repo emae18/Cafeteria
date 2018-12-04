@@ -1,0 +1,356 @@
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\bin\Debug\muebleria.mdf
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\bin\Debug\muebleria_log.ldf
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\bin\Debug\Vistas.exe.config
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\bin\Debug\Vistas.exe
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\bin\Debug\Vistas.pdb
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMCliente.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMProveedor.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMVendedor.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Validators\ValidarProducto.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Vista Previa\VPProductos.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Configuracion\Configuracion.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Presentacion.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Reproductor\winVideo.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Resources\styles\black-orangeTheme.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UC_Conometro.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Ventas\ComprobanteDeVenta.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Resources\styles\default.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Resources\templates\ABMProductoTemplate.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Resources\templates\ABMProveedorTemplate.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UCLogin.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UCUserLogueado.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\WinConfirms\WinConfirmacion.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\about.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Ventas\WinVentas.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMCliente.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMProducto.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMProveedor.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMUsuario.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMVendedor.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Validators\ValidarProducto.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Vista Previa\VPProductos.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Configuracion\Configuracion.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Presentacion.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Reproductor\winVideo.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UC_Conometro.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Ventas\ComprobanteDeVenta.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ListaDeEstados.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Menu.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UCLogin.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UCUserLogueado.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\WinConfirms\WinConfirmacion.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\about.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\WinLogin.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Ventas\WinVentas.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\App.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas_Content.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\App.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMProducto.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMUsuario.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ListaDeEstados.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Menu.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\WinLogin.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.g.resources
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Vista Previa\VistaPrevia.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Vista Previa\VistaPrevia.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\bin\Debug\Vistas.exe
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\bin\Debug\Vistas.pdb
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Vista Previa\VistaPrevia.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Vista Previa\VPProductos.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Presentacion.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Reproductor\winVideo.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Resources\styles\black-orangeTheme.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UC_Conometro.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Resources\styles\default.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Resources\templates\ABMProductoTemplate.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Resources\templates\ABMProveedorTemplate.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UCLogin.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UCUserLogueado.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\WinConfirms\WinConfirmacion.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\about.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMUsuario.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Vista Previa\VistaPrevia.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Vista Previa\VPProductos.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Presentacion.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Reproductor\winVideo.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UC_Conometro.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ListaDeEstados.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Menu.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UCLogin.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\UserControls\UCUserLogueado.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\WinConfirms\WinConfirmacion.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\about.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\WinLogin.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\App.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas_Content.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\bin\Debug\Vistas.exe.config
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\bin\Debug\muebleria.mdf
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\bin\Debug\muebleria_log.ldf
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\bin\Debug\Vistas.exe.manifest
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\bin\Debug\Vistas.application
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMCliente.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMProveedor.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMVendedor.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Validators\ValidarProducto.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Configuracion\Configuracion.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Ventas\ComprobanteDeVenta.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Ventas\WinVentas.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMCliente.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMProducto.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMProveedor.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMVendedor.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\Validators\ValidarProducto.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Configuracion\Configuracion.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Ventas\ComprobanteDeVenta.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Ventas\WinVentas.g.cs
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\App.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMProducto.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ABM\ABMUsuario.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\ListaDeEstados.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Menu.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\WinLogin.baml
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.g.resources
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.exe.manifest
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.application
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VistaPrevia.baml
+C:\Cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VPProductos.baml
+C:\Cafe\Vistas\obj\x86\Debug\Presentacion.baml
+C:\Cafe\Vistas\obj\x86\Debug\Reproductor\winVideo.baml
+C:\Cafe\Vistas\obj\x86\Debug\Resources\styles\black-orangeTheme.baml
+C:\Cafe\Vistas\obj\x86\Debug\UserControls\UC_Conometro.baml
+C:\Cafe\Vistas\obj\x86\Debug\Resources\styles\default.baml
+C:\Cafe\Vistas\obj\x86\Debug\Resources\templates\ABMProductoTemplate.baml
+C:\Cafe\Vistas\obj\x86\Debug\Resources\templates\ABMProveedorTemplate.baml
+C:\Cafe\Vistas\obj\x86\Debug\UserControls\UCLogin.baml
+C:\Cafe\Vistas\obj\x86\Debug\UserControls\UCUserLogueado.baml
+C:\Cafe\Vistas\obj\x86\Debug\Ventas\WinGanancia.baml
+C:\Cafe\Vistas\obj\x86\Debug\WinConfirms\WinConfirmacion.baml
+C:\Cafe\Vistas\obj\x86\Debug\about.baml
+C:\Cafe\Vistas\obj\x86\Debug\ABM\ABMUsuario.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VistaPrevia.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VPProductos.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\Presentacion.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\Reproductor\winVideo.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\UserControls\UC_Conometro.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\ListaDeEstados.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\Menu.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\UserControls\UCLogin.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\UserControls\UCUserLogueado.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\Ventas\WinGanancia.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\WinConfirms\WinConfirmacion.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\about.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\WinLogin.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\App.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\Vistas_Content.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+C:\Cafe\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
+C:\Cafe\Vistas\bin\Debug\muebleria.mdf
+C:\Cafe\Vistas\bin\Debug\muebleria_log.ldf
+C:\Cafe\Vistas\bin\Debug\Vistas.exe.config
+C:\Cafe\Vistas\bin\Debug\Vistas.exe.manifest
+C:\Cafe\Vistas\bin\Debug\Vistas.application
+C:\Cafe\Vistas\bin\Debug\Vistas.exe
+C:\Cafe\Vistas\bin\Debug\Vistas.pdb
+C:\Cafe\Vistas\bin\Debug\ClasesBase.dll
+C:\Cafe\Vistas\bin\Debug\ClasesBase.pdb
+C:\Cafe\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Cafe\Vistas\obj\x86\Debug\ABM\ABMCliente.baml
+C:\Cafe\Vistas\obj\x86\Debug\ABM\ABMProveedor.baml
+C:\Cafe\Vistas\obj\x86\Debug\ABM\ABMVendedor.baml
+C:\Cafe\Vistas\obj\x86\Debug\ABM\Validators\ValidarProducto.baml
+C:\Cafe\Vistas\obj\x86\Debug\Configuracion\Configuracion.baml
+C:\Cafe\Vistas\obj\x86\Debug\Gastos\WinGastos.baml
+C:\Cafe\Vistas\obj\x86\Debug\Ventas\ComprobanteDeVenta.baml
+C:\Cafe\Vistas\obj\x86\Debug\Ventas\WinVentas.baml
+C:\Cafe\Vistas\obj\x86\Debug\ABM\ABMCliente.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\ABM\ABMProducto.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\ABM\ABMProveedor.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\ABM\ABMVendedor.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\ABM\Validators\ValidarProducto.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\Configuracion\Configuracion.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\Gastos\WinGastos.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\Ventas\ComprobanteDeVenta.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\Ventas\WinVentas.g.cs
+C:\Cafe\Vistas\obj\x86\Debug\App.baml
+C:\Cafe\Vistas\obj\x86\Debug\ABM\ABMProducto.baml
+C:\Cafe\Vistas\obj\x86\Debug\ABM\ABMUsuario.baml
+C:\Cafe\Vistas\obj\x86\Debug\ListaDeEstados.baml
+C:\Cafe\Vistas\obj\x86\Debug\Menu.baml
+C:\Cafe\Vistas\obj\x86\Debug\WinLogin.baml
+C:\Cafe\Vistas\obj\x86\Debug\Vistas.g.resources
+C:\Cafe\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Cafe\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Cafe\Vistas\obj\x86\Debug\Vistas.exe.manifest
+C:\Cafe\Vistas\obj\x86\Debug\Vistas.application
+C:\Cafe\Vistas\obj\x86\Debug\Vistas.exe
+C:\Cafe\Vistas\obj\x86\Debug\Vistas.pdb
+I:\cafe\Vistas\bin\Debug\Vistas.exe.config
+I:\cafe\Vistas\obj\x86\Debug\Vistas.exe
+I:\cafe\Vistas\obj\x86\Debug\Vistas.pdb
+I:\cafe\Vistas\bin\Debug\muebleria.mdf
+I:\cafe\Vistas\bin\Debug\muebleria_log.ldf
+I:\cafe\Vistas\bin\Debug\Vistas.exe.manifest
+I:\cafe\Vistas\bin\Debug\Vistas.application
+I:\cafe\Vistas\bin\Debug\Vistas.exe
+I:\cafe\Vistas\bin\Debug\Vistas.pdb
+I:\cafe\Vistas\bin\Debug\ClasesBase.dll
+I:\cafe\Vistas\bin\Debug\ClasesBase.pdb
+I:\cafe\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+I:\cafe\Vistas\obj\x86\Debug\ABM\ABMCliente.baml
+I:\cafe\Vistas\obj\x86\Debug\ABM\ABMProveedor.baml
+I:\cafe\Vistas\obj\x86\Debug\ABM\ABMVendedor.baml
+I:\cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VistaPrevia.baml
+I:\cafe\Vistas\obj\x86\Debug\ABM\Validators\ValidarProducto.baml
+I:\cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VPProductos.baml
+I:\cafe\Vistas\obj\x86\Debug\Configuracion\Configuracion.baml
+I:\cafe\Vistas\obj\x86\Debug\Gastos\WinGastos.baml
+I:\cafe\Vistas\obj\x86\Debug\Presentacion.baml
+I:\cafe\Vistas\obj\x86\Debug\Reproductor\winVideo.baml
+I:\cafe\Vistas\obj\x86\Debug\Resources\styles\black-orangeTheme.baml
+I:\cafe\Vistas\obj\x86\Debug\UserControls\UC_Conometro.baml
+I:\cafe\Vistas\obj\x86\Debug\Ventas\ComprobanteDeVenta.baml
+I:\cafe\Vistas\obj\x86\Debug\Resources\styles\default.baml
+I:\cafe\Vistas\obj\x86\Debug\Resources\templates\ABMProductoTemplate.baml
+I:\cafe\Vistas\obj\x86\Debug\Resources\templates\ABMProveedorTemplate.baml
+I:\cafe\Vistas\obj\x86\Debug\UserControls\UCLogin.baml
+I:\cafe\Vistas\obj\x86\Debug\UserControls\UCUserLogueado.baml
+I:\cafe\Vistas\obj\x86\Debug\Ventas\WinGanancia.baml
+I:\cafe\Vistas\obj\x86\Debug\WinConfirms\WinConfirmacion.baml
+I:\cafe\Vistas\obj\x86\Debug\about.baml
+I:\cafe\Vistas\obj\x86\Debug\Ventas\WinVentas.baml
+I:\cafe\Vistas\obj\x86\Debug\ABM\ABMCliente.g.cs
+I:\cafe\Vistas\obj\x86\Debug\ABM\ABMProducto.g.cs
+I:\cafe\Vistas\obj\x86\Debug\ABM\ABMProveedor.g.cs
+I:\cafe\Vistas\obj\x86\Debug\ABM\ABMUsuario.g.cs
+I:\cafe\Vistas\obj\x86\Debug\ABM\ABMVendedor.g.cs
+I:\cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VistaPrevia.g.cs
+I:\cafe\Vistas\obj\x86\Debug\ABM\Validators\ValidarProducto.g.cs
+I:\cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VPProductos.g.cs
+I:\cafe\Vistas\obj\x86\Debug\Configuracion\Configuracion.g.cs
+I:\cafe\Vistas\obj\x86\Debug\Gastos\WinGastos.g.cs
+I:\cafe\Vistas\obj\x86\Debug\Presentacion.g.cs
+I:\cafe\Vistas\obj\x86\Debug\Reproductor\winVideo.g.cs
+I:\cafe\Vistas\obj\x86\Debug\UserControls\UC_Conometro.g.cs
+I:\cafe\Vistas\obj\x86\Debug\Ventas\ComprobanteDeVenta.g.cs
+I:\cafe\Vistas\obj\x86\Debug\ListaDeEstados.g.cs
+I:\cafe\Vistas\obj\x86\Debug\Menu.g.cs
+I:\cafe\Vistas\obj\x86\Debug\UserControls\UCLogin.g.cs
+I:\cafe\Vistas\obj\x86\Debug\UserControls\UCUserLogueado.g.cs
+I:\cafe\Vistas\obj\x86\Debug\Ventas\WinGanancia.g.cs
+I:\cafe\Vistas\obj\x86\Debug\WinConfirms\WinConfirmacion.g.cs
+I:\cafe\Vistas\obj\x86\Debug\about.g.cs
+I:\cafe\Vistas\obj\x86\Debug\WinLogin.g.cs
+I:\cafe\Vistas\obj\x86\Debug\Ventas\WinVentas.g.cs
+I:\cafe\Vistas\obj\x86\Debug\App.g.cs
+I:\cafe\Vistas\obj\x86\Debug\Vistas_Content.g.cs
+I:\cafe\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+I:\cafe\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+I:\cafe\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
+I:\cafe\Vistas\obj\x86\Debug\App.baml
+I:\cafe\Vistas\obj\x86\Debug\ABM\ABMProducto.baml
+I:\cafe\Vistas\obj\x86\Debug\ABM\ABMUsuario.baml
+I:\cafe\Vistas\obj\x86\Debug\ListaDeEstados.baml
+I:\cafe\Vistas\obj\x86\Debug\Menu.baml
+I:\cafe\Vistas\obj\x86\Debug\WinLogin.baml
+I:\cafe\Vistas\obj\x86\Debug\Vistas.g.resources
+I:\cafe\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+I:\cafe\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+I:\cafe\Vistas\obj\x86\Debug\Vistas.exe.manifest
+I:\cafe\Vistas\obj\x86\Debug\Vistas.application
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\bin\Debug\Vistas.exe.config
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\bin\Debug\muebleria.mdf
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\bin\Debug\muebleria_log.ldf
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\bin\Debug\Vistas.exe.manifest
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\bin\Debug\Vistas.application
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\bin\Debug\Vistas.exe
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\bin\Debug\Vistas.pdb
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\ABMCliente.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\ABMProveedor.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\ABMVendedor.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VistaPrevia.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\Validators\ValidarProducto.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VPProductos.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Configuracion\Configuracion.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Gastos\WinGastos.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Presentacion.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Reproductor\winVideo.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Resources\styles\black-orangeTheme.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\UserControls\UC_Conometro.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Ventas\ComprobanteDeVenta.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Resources\styles\default.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Resources\templates\ABMProductoTemplate.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Resources\templates\ABMProveedorTemplate.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\UserControls\UCLogin.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\UserControls\UCUserLogueado.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Ventas\WinGanancia.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\WinConfirms\WinConfirmacion.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\about.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Ventas\WinVentas.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\ABMCliente.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\ABMProducto.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\ABMProveedor.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\ABMUsuario.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\ABMVendedor.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VistaPrevia.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\Validators\ValidarProducto.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\Vista Previa\VPProductos.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Configuracion\Configuracion.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Gastos\WinGastos.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Presentacion.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Reproductor\winVideo.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\UserControls\UC_Conometro.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Ventas\ComprobanteDeVenta.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ListaDeEstados.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Menu.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\UserControls\UCLogin.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\UserControls\UCUserLogueado.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Ventas\WinGanancia.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\WinConfirms\WinConfirmacion.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\about.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\WinLogin.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Ventas\WinVentas.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\App.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas_Content.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas_MarkupCompile.cache
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas_MarkupCompile.lref
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\App.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\ABMProducto.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ABM\ABMUsuario.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\ListaDeEstados.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Menu.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\WinLogin.baml
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas.g.resources
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas.exe.manifest
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas.application
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\bin\Debug\ClasesBase.dll.config
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas.csprojAssemblyReference.cache
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Alon Matzu\Downloads\cafe\Vistas\obj\x86\Debug\Vistas.csproj.CopyComplete

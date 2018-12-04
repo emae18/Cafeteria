@@ -1,0 +1,103 @@
+﻿<Window x:Class="Vistas.ComprobanteDeVenta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:svc="clr-namespace:ClasesBase.ABM;assembly=ClasesBase"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        Title="Comprobante" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" MinWidth="465" MinHeight="400" d:DesignHeight="572" SizeToContent="WidthAndHeight">
+    <Window.Resources>
+        <ObjectDataProvider
+            x:Key="LIST_VENTAS"
+            ObjectType="{x:Type svc:TrabajarVenta}"
+            MethodName="traerVentaFinal">
+            <ObjectDataProvider.MethodParameters>
+                <system:String>0</system:String>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    
+   <FixedDocument>
+         <PageContent>
+        <FixedPage Width="460">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="15" />
+                        <ColumnDefinition Width="215" />
+                        <ColumnDefinition Width="215" />
+                        <ColumnDefinition Width="15" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10" />
+                <RowDefinition Height="96" />
+                <RowDefinition Height="160" />
+                <RowDefinition Height="216*" />
+                        <RowDefinition Height="34" />
+                        <RowDefinition Height="93" />
+            </Grid.RowDefinitions>
+
+                    <Border BorderBrush="Black" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2">
+                        <DockPanel Name="dockPanel1" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Height="95">
+                            <TextBlock Text="Cafetería" TextAlignment="Center" DockPanel.Dock="Top"></TextBlock>
+                            <TextBlock Height="30" Name="textBlock2" Text="Café Tentación" FontSize="25" FontFamily="Monotype Corsiva" FontWeight="Bold" TextAlignment="Center" DockPanel.Dock="Top"/>
+                            <TextBlock Text="Galería Frente Terminal" VerticalAlignment="Center" Height="19" TextWrapping="Wrap" Padding="15,0,5,0"></TextBlock>
+                            <Separator Width="40" Height="5">
+                                <Separator.LayoutTransform>
+                                    <RotateTransform Angle="90" />
+                                </Separator.LayoutTransform>
+                            </Separator>
+                            <TextBlock Text="Abra Pampa, Jujuy, Argentina" VerticalAlignment="Center" TextAlignment="Center" Height="36" TextWrapping="Wrap" Padding="5,0" Width="121"></TextBlock>
+                            <Separator Width="40" Height="5">
+                                <Separator.LayoutTransform>
+                                    <RotateTransform Angle="90" />
+                                </Separator.LayoutTransform>
+                            </Separator>
+                            <TextBlock Text="2018" Height="18" VerticalAlignment="Center" TextWrapping="Wrap" Padding="5,0"></TextBlock>
+                            <Separator Width="40" Height="5">
+                                <Separator.LayoutTransform>
+                                    <RotateTransform Angle="90" />
+                                </Separator.LayoutTransform>
+                            </Separator>
+                            <TextBlock Text="Key" TextAlignment="Center" VerticalAlignment="Center" Height="Auto" TextWrapping="Wrap" Padding="5,0,15,0"></TextBlock>
+                </DockPanel>
+                    </Border>
+            <Separator Grid.Column="1" Grid.Row="2" Height="8" Margin="2,152,14,0" Name="separator1" VerticalAlignment="Top" Grid.ColumnSpan="3" />
+                    <ListView ItemsSource="{Binding Source={StaticResource LIST_VENTAS}}" Grid.Row="3" HorizontalAlignment="Left" Name="listView1" Width="430" MinHeight="200" VerticalAlignment="Top" Margin="1,0,0,0" Grid.ColumnSpan="3" Grid.Column="1" Height="206">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn DisplayMemberBinding="{Binding DescProd}" Header="Descripción" Width="130" ></GridViewColumn>
+                                <GridViewColumn DisplayMemberBinding="{Binding ColorProd}" Header="Categoría" Width="65"></GridViewColumn>
+                                <GridViewColumn Header="Precio" Width="80">
+                                    <GridViewColumn.DisplayMemberBinding>
+                                        <MultiBinding StringFormat="{}$ {0}">
+                                    <Binding Path="PrecProd" />
+                                        </MultiBinding>
+                                    </GridViewColumn.DisplayMemberBinding>
+                                </GridViewColumn>
+                                <GridViewColumn DisplayMemberBinding="{Binding CantProd}" Header="Cantidad" Width="60"></GridViewColumn>
+                                <GridViewColumn Header="Importe Total" Width="80">
+                                    <GridViewColumn.DisplayMemberBinding>
+                                        <MultiBinding StringFormat="{}$ {0}">
+                                        <Binding Path="PrecFinalVent" />
+                                        </MultiBinding>
+                                    </GridViewColumn.DisplayMemberBinding>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+            <Label FontWeight="Bold" Content="Total: " Grid.Column="2" Grid.Row="4" HorizontalAlignment="Left" Margin="64,0,0,0" Name="label1" Width="49" />
+                    <Label FontWeight="Bold" Grid.Column="2" Grid.Row="4" Margin="119,0,14,0" Name="impTotal" Grid.ColumnSpan="2" />
+            <TextBlock FontWeight="Bold" Grid.Row="2" HorizontalAlignment="Left" Margin="1,29,0,0" Name="textBlock1" Text="Cliente:" VerticalAlignment="Top" Grid.Column="1" />
+            <TextBlock FontWeight="Bold" Grid.Row="2" Margin="2,77,140,67" Name="textBlock3" Text="Vendedor:" Grid.Column="1" />
+            <TextBlock Grid.Column="1" Grid.Row="2" Margin="47,29,13,89" Name="txtCliente" TextWrapping="Wrap" />
+            <TextBlock FontSize="16" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Row="2" HorizontalAlignment="Left" Name="textBlock6" Padding="0" Text="Venta" TextDecorations="Underline" VerticalAlignment="Top" Grid.Column="1" />
+            <TextBlock FontWeight="Bold" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Left" Margin="0,29,0,0" Name="textBlock7" Text="Nro:" VerticalAlignment="Top" />
+            <TextBlock Grid.Column="2" Grid.Row="2" Height="23" Margin="42,29,1,0" Name="txtNro" Text="{Binding Source={StaticResource LIST_VENTAS}, Path=MethodParameters[0], BindsDirectlyToSource=True, Mode=OneWayToSource}" VerticalAlignment="Top" />
+            <TextBlock FontWeight="Bold" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Left" Margin="0,72,0,0" Name="textBlock9" Text="Fecha y hora:" VerticalAlignment="Top" />
+            <TextBlock Grid.Column="2" Grid.Row="2" Margin="80,72,1,47" Name="txtFecHor" TextWrapping="Wrap" />
+            <TextBlock Name="txtVendedor" TextWrapping="Wrap" Grid.Column="1" Margin="66,77,13,35" Grid.Row="2" />
+        </Grid>
+
+            </FixedPage>
+      </PageContent>
+    </FixedDocument> 
+
+</Window>

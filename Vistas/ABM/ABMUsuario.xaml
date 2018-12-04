@@ -1,0 +1,62 @@
+﻿<Window x:Class="Vistas.ABM.ABMUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:uc="clr-namespace:Vistas.UserControls"
+        Title="Informacion del usuario" Height="354" Width="300" ResizeMode="NoResize" SizeToContent="Width">
+    <Window.Background>
+        <ImageBrush ImageSource="/Vistas;component/Resources/Images/bg5.jpg" Stretch="Fill" TileMode="None" />
+    </Window.Background>
+    <Grid KeyDown="Grid_KeyDown">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="35" />
+            <RowDefinition Height="28" />
+            <RowDefinition Height="28" />
+            <RowDefinition Height="28" />
+            <RowDefinition Height="28" />
+            <RowDefinition Height="28" />
+            <RowDefinition Height="98*" />
+            <RowDefinition Height="10" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15" />
+            <ColumnDefinition/>
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition/>
+            <ColumnDefinition Width="15" />
+        </Grid.ColumnDefinitions>
+        <Grid Background="#97000000" Height="89" HorizontalAlignment="Left" Name="grid1" VerticalAlignment="Top" Width="278" Grid.ColumnSpan="6" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5" />
+                <RowDefinition Height="81*" />
+            </Grid.RowDefinitions>
+            <Button Style="{StaticResource ResourceKey=btn_style}" Height="60" HorizontalAlignment="Left" Margin="212,2,0,0" Name="btnModificar" VerticalAlignment="Top" Width="60" Grid.Row="1" Click="btnModificar_Click">
+                <Button.Tag>
+                    <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.edit.png</ImageSource>
+                </Button.Tag>
+            </Button>
+            <TextBlock Foreground="White" FontSize="11" FontStyle="oblique"  Height="15" HorizontalAlignment="Left" TextAlignment="Center" Margin="15,69,0,0" Name="textBlock1" 
+                       Text="* Para modificar, haz click en el botón Modificar" VerticalAlignment="Top" Width="249" Grid.Row="1" />
+            <uc:UCUserLogueado x:Name="ucUserLogueado" Margin="6,1,70,21" Grid.Row="1"></uc:UCUserLogueado>
+        </Grid>
+        <Label Style="{StaticResource ResourceKey=lb_style_1}" Content="Nombres:" Grid.Column="1" Grid.Row="2" Height="28" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Width="119" />
+        <Label Style="{StaticResource ResourceKey=lb_style_1}" Content="Apellido:" Height="28" HorizontalAlignment="Left" Name="label2" VerticalAlignment="Top" Width="119" Grid.Row="3" Grid.Column="1" />
+        <Label Style="{StaticResource ResourceKey=lb_style_1}" Content="Nombre de Usuario:" Height="28" HorizontalAlignment="Left" Name="label3" VerticalAlignment="Top" Width="119" Grid.Column="1" Grid.Row="4" />
+        <Label Style="{StaticResource ResourceKey=lb_style_1}" Content="Contraseña:" Height="28" HorizontalAlignment="Left" Name="label4" VerticalAlignment="Top" Width="119" Grid.Column="1" Grid.Row="5" />
+        <Label Style="{StaticResource ResourceKey=lb_style_1}" Content="Rol:" Height="28" HorizontalAlignment="Left" Name="label5" VerticalAlignment="Top" Width="119" Grid.Column="1" Grid.Row="7" />
+        <TextBox Style="{StaticResource ResourceKey=txt_style}" Name="txtNombre" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="2" Height="23" HorizontalAlignment="Left" Margin="0,1,0,0" VerticalAlignment="Top" Width="120" IsReadOnly="False" />
+        <TextBox Style="{StaticResource ResourceKey=txt_style}" Name="txtApellido" Grid.ColumnSpan="2" Height="23" HorizontalAlignment="Left" Margin="0,1,0,0" VerticalAlignment="Top" Width="120" Grid.Column="4" Grid.Row="3" IsReadOnly="False" />
+        <TextBox Style="{StaticResource ResourceKey=txt_style}" Name="txtNomUsu" Grid.ColumnSpan="2" Height="23" HorizontalAlignment="Left" Margin="0,1,0,0" VerticalAlignment="Top" Width="120" Grid.Column="4" Grid.Row="4" IsReadOnly="False" />
+        <TextBox Style="{StaticResource ResourceKey=txt_style}" Name="txtRol" Grid.ColumnSpan="2" Height="23" HorizontalAlignment="Left" Margin="4,1,0,0" VerticalAlignment="Top" Width="120" Grid.Column="3" Grid.Row="7" IsReadOnly="True" />
+        
+        <Button Style="{StaticResource ResourceKey=btn_style}" Height="30" Width="90" Content="Aceptar" Margin="71,35,72,2" Name="btnAceptar" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="7" Click="btnAceptar_Click">
+            <Button.Tag>
+                <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.check.png</ImageSource>
+            </Button.Tag>
+        </Button>
+        <PasswordBox Name="txtContraseña" Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="5" Height="23" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="0,3,0,0" />
+        <Label Content="Repetir Contraseña:" Height="28" HorizontalAlignment="Left" Name="label6" Style="{StaticResource lb_style_1}" VerticalAlignment="Top" Width="119" Grid.Column="1" Grid.Row="6" />
+        <PasswordBox Grid.ColumnSpan="2" Height="23" HorizontalAlignment="Left" Margin="0,2,0,0" Name="txtRepetirContraseña" VerticalAlignment="Top" Width="120" Grid.Column="4" Grid.Row="6" />
+    </Grid>
+</Window>

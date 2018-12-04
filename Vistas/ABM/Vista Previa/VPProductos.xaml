@@ -1,0 +1,31 @@
+﻿<Window x:Class="Vistas.ABM.Vista_Previa.VPProductos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Productos="clr-namespace:ClasesBase.ABM;assembly=ClasesBase"
+        xmlns:componentModel="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+        Title="Vista previa de impresión" Height="Auto" Width="530" SizeToContent="Height" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="403" ResizeMode="NoResize">
+    <StackPanel >
+        <FlowDocumentReader Canvas.Left="12" Canvas.Top="28" Width="477" Height="Auto">
+            <FlowDocument Name="DocMain">
+                <Paragraph Foreground="BlueViolet" FontFamily="Copperplate Gothic">Listado de Productos</Paragraph>
+                <BlockUIContainer>
+                    <ListView Background="Linen" Height="Auto" HorizontalAlignment="Center" Margin="0,41,0,0" Name="lvwProductos" VerticalAlignment="Top" Width="440" 
+                              >
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn DisplayMemberBinding="{Binding Prod_Descripcion}" Header="Descripción" Width="125"></GridViewColumn>
+                                <GridViewColumn DisplayMemberBinding="{Binding Prod_Categoria}" Header="Categoría" Width="100"></GridViewColumn>
+                                <GridViewColumn DisplayMemberBinding="{Binding Prod_Precio}" Header="Precio" Width="100"></GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentReader>
+        <Button Style="{StaticResource btn_style}" Width="105" Height="30" Name="btnImpri" Content="Comenzar" Click="btnImpri_Click" Margin="0,10">
+            <Button.Tag>
+                <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.printer.png</ImageSource>
+            </Button.Tag>
+        </Button>
+    </StackPanel>
+</Window>

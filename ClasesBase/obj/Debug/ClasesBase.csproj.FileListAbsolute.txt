@@ -1,0 +1,41 @@
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\ClasesBase\bin\Debug\muebleria.mdf
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\ClasesBase\bin\Debug\muebleria_log.ldf
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\ClasesBase\bin\Debug\ClasesBase.dll.config
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Projects\tpFinalV1\lpoo2grupo1\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\ClasesBase\bin\Debug\muebleria.mdf
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\ClasesBase\bin\Debug\muebleria_log.ldf
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\ClasesBase\bin\Debug\ClasesBase.dll.config
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Cafe\ClasesBase\bin\Debug\muebleria.mdf
+C:\Cafe\ClasesBase\bin\Debug\muebleria_log.ldf
+C:\Cafe\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Cafe\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Cafe\ClasesBase\bin\Debug\ClasesBase.dll.config
+C:\Cafe\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Cafe\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Cafe\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
+I:\cafe\ClasesBase\bin\Debug\muebleria.mdf
+I:\cafe\ClasesBase\bin\Debug\muebleria_log.ldf
+I:\cafe\ClasesBase\bin\Debug\ClasesBase.dll.config
+I:\cafe\ClasesBase\bin\Debug\ClasesBase.dll
+I:\cafe\ClasesBase\bin\Debug\ClasesBase.pdb
+I:\cafe\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
+I:\cafe\ClasesBase\obj\Debug\ClasesBase.dll
+I:\cafe\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\Alon Matzu\Downloads\cafe\ClasesBase\bin\Debug\muebleria.mdf
+C:\Users\Alon Matzu\Downloads\cafe\ClasesBase\bin\Debug\muebleria_log.ldf
+C:\Users\Alon Matzu\Downloads\cafe\ClasesBase\bin\Debug\ClasesBase.dll.config
+C:\Users\Alon Matzu\Downloads\cafe\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Users\Alon Matzu\Downloads\cafe\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Users\Alon Matzu\Downloads\cafe\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Users\Alon Matzu\Downloads\cafe\ClasesBase\obj\Debug\ClasesBase.pdb
+C:\Users\Alon Matzu\Downloads\cafe\ClasesBase\obj\Debug\ClasesBase.csprojAssemblyReference.cache
+C:\Users\Alon Matzu\Downloads\cafe\ClasesBase\obj\Debug\ClasesBase.csproj.CoreCompileInputs.cache

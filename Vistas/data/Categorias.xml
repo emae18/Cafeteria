@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<categoria>
+  <tipo name="--SELECCIONAR--" value=""></tipo>
+  <tipo name="Cafetería" value="Cafetería"></tipo>
+  <tipo name="Jugos" value="Jugos"></tipo>
+  <tipo name="Aguas-Gaseosas" value="Aguas-Gaseosas"></tipo>
+  <tipo name="Pizzas" value="Pizzas"></tipo>
+  <tipo name="Comidas" value="Comidas"></tipo>
+</categoria>

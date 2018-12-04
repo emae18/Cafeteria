@@ -1,0 +1,193 @@
+﻿<Window x:Class="Vistas.ABM.ABMCliente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:svc="clr-namespace:ClasesBase.ABM;assembly=ClasesBase"
+        Title="ABMCliente" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded"
+        mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:componentModel="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="400" Width="794" Icon="/Vistas;component/Resources/Images/Icons/app-icon.ico">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="Yellow" Offset="0.0" />
+            <GradientStop Color="Red" Offset="0.25" />
+            <GradientStop Color="Blue" Offset="0.75" />
+            <GradientStop Color="LimeGreen" Offset="1.0" />
+        </LinearGradientBrush>    </Window.Background>
+    <Window.Resources>        
+        <ObjectDataProvider
+            x:Key="LIST_CLI"
+            ObjectType="{x:Type svc:TrabajarCliente}"
+            MethodName="traerCliente">
+        </ObjectDataProvider>
+        <CollectionViewSource
+            x:Key="VISTA_CLI"
+            Source="{StaticResource ResourceKey=LIST_CLI}"
+            Filter="eventVistaCliente_Filter">
+
+            <CollectionViewSource.SortDescriptions>
+                <componentModel:SortDescription PropertyName="Cli_Apellido" Direction="Ascending"></componentModel:SortDescription>
+            </CollectionViewSource.SortDescriptions>
+        </CollectionViewSource>
+    </Window.Resources>
+
+    <Grid Name="grid_content" DataContext="{Binding Source={StaticResource ResourceKey=LIST_CLI}}" Visibility="Visible" Background="{x:Null}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="195*" />
+            <RowDefinition Height="70" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Menu Style="{StaticResource ResourceKey=menu}" Name="mnMenu" Grid.ColumnSpan="3" VerticalAlignment="Top">
+            <MenuItem Style="{StaticResource ResourceKey=menuItemStyle}" 
+                      ToolTip="Ingresar un nuevo Cliente" ToolTipService.ShowDuration="3000" ToolTipService.HasDropShadow="True" Name="mnNuevo" Click="mnNuevo_Click">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Vistas;component/Resources/Images/Icons/dark/appbar.add.png" Width="25" Height="25" />
+                        <ContentPresenter Content="Nuevo" VerticalAlignment="Center"></ContentPresenter>
+                    </StackPanel>
+                </MenuItem.Header>
+            </MenuItem>
+            <MenuItem Style="{StaticResource ResourceKey=menuItemStyle}" ToolTipService.ShowDuration="3000" ToolTipService.HasDropShadow="True"
+                      ToolTip="Modificar este Cliente" Name="mnModificar" Click="mnModificar_Click">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Vistas;component/Resources/Images/Icons/dark/appbar.draw.pencil.png" Width="25" Height="25" />
+                        <ContentPresenter Content="Modificar" VerticalAlignment="Center"></ContentPresenter>
+                    </StackPanel>
+                </MenuItem.Header>
+            </MenuItem>
+            <MenuItem Style="{StaticResource ResourceKey=menuItemStyle}" 
+                      ToolTip="Eliminar este Cliente" ToolTipService.ShowDuration="3000" ToolTipService.HasDropShadow="True" Name="mnEliminar" Click="mnEliminar_Click">
+                <MenuItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Vistas;component/Resources/Images/Icons/dark/appbar.delete.png" Width="25" Height="25" />
+                        <ContentPresenter Content="Eliminar" VerticalAlignment="Center"></ContentPresenter>
+                    </StackPanel>
+                </MenuItem.Header>
+            </MenuItem>
+        </Menu>
+        <Grid Style="{StaticResource grid_style}" Height="70" Name="grid1" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Grid.Row="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition />
+                <RowDefinition Height="10" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15" />
+                <ColumnDefinition/>
+                <ColumnDefinition Width="15" />
+            </Grid.ColumnDefinitions>
+            <Button Style="{StaticResource ResourceKey=btn_style}" Content="Volver" ToolTip="Regresa a ventana principal" Margin="0,2,8,8" Name="btnSalir" Click="btnSalir_Click" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" Width="92">
+                <Button.Tag>
+                    <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.arrow.left.png</ImageSource>
+                </Button.Tag>
+            </Button>
+            <WrapPanel DataContext="{Binding RelativeSource={RelativeSource Self}}" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Height="50" HorizontalAlignment="Left" Name="wrapPanel1" VerticalAlignment="Top" Width="200">
+                <TextBlock Height="23" Width="100" Name="textBlock1" Foreground="White" FontWeight="Medium" Text="Lectura y Escritura:" TextAlignment="Right"/>
+                <TextBlock Height="23" Width="100" Name="txtEstado" TextAlignment="Center"/>
+            </WrapPanel>
+        </Grid>
+        <Border Style="{StaticResource border_body}" BorderBrush="Silver" BorderThickness="1" Grid.Row="2" Height="213" HorizontalAlignment="Left" Margin="12,3,0,0" Name="border1" VerticalAlignment="Top" Width="316">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Border Style="{StaticResource border_header}" Margin="0,0,-2,0" Height="45">
+                    <Grid>
+                        <StackPanel Name="stackPanel1" Orientation="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Center">
+                            <Button ToolTip="Primero" ToolTipService.ShowDuration="3000" ToolTipService.HasDropShadow="True" Click="btnPrimero_Click" Height="30" Margin="10,0" Name="btnPrimero" Style="{StaticResource btn_style}" Width="30">
+                                <Button.Tag>
+                                    <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.control.rewind.png</ImageSource>
+                                </Button.Tag>
+                            </Button>
+                            <Separator Height="5" Name="separator3" Width="30">
+                                <Separator.LayoutTransform>
+                                    <RotateTransform Angle="90" />
+                                </Separator.LayoutTransform>
+                            </Separator>
+                            <Button ToolTip="Anterior" ToolTipService.ShowDuration="3000" ToolTipService.HasDropShadow="True" Click="btnAnterior_Click" Height="30" Margin="10,5" Name="btnAnterior" Style="{StaticResource btn_style}" Width="30">
+                                <Button.Tag>
+                                    <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.control.rewind.variant.png</ImageSource>
+                                </Button.Tag>
+                            </Button>
+                            <Separator Height="5" Name="separator2" Width="30">
+                                <Separator.LayoutTransform>
+                                    <RotateTransform Angle="90" />
+                                </Separator.LayoutTransform>
+                            </Separator>
+                            <Button ToolTip="Siguiente" ToolTipService.ShowDuration="3000" ToolTipService.HasDropShadow="True" Click="btnSiguiente_Click" Height="30" Margin="10,5" Name="btnSiguiente" Style="{StaticResource btn_style}" Width="30">
+                                <Button.Tag>
+                                    <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.control.fastforward.variant.png</ImageSource>
+                                </Button.Tag>
+                            </Button>
+                            <Separator Height="5" Name="separator1" Width="30">
+                                <Separator.LayoutTransform>
+                                    <RotateTransform Angle="90" />
+                                </Separator.LayoutTransform>
+                            </Separator>
+                            <Button ToolTip="Último" ToolTipService.ShowDuration="3000" ToolTipService.HasDropShadow="True" Click="btnUltimo_Click" Height="30" Margin="10,5" Name="btnUltimo" Style="{StaticResource btn_style}" Width="30">
+                                <Button.Tag>
+                                    <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.control.fastforward.png</ImageSource>
+                                </Button.Tag>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+                <Label Background="#97000000" Content="Direccion:" Height="30" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Name="label4" VerticalAlignment="Top" Width="136" FontFamily="Verdana" FontWeight="Bold" Grid.Row="1" Foreground="White" Margin="18,88,0,0" />
+                <Label Background="#97000000" Content="Nombre:" Height="26" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Name="label3" VerticalAlignment="Top" Width="136" FontFamily="Verdana" FontWeight="Bold" Grid.Row="1" Foreground="White" Margin="18,62,0,0" />
+                <Label Background="#97000000" Content="Apellido:" Height="28" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Name="label2" VerticalAlignment="Top" FontFamily="Verdana" FontWeight="Bold" Width="136" Grid.Row="1" Foreground="White" Margin="18,34,0,0" />
+                <Label Background="#97000000" Content="DNI:" Height="28" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Name="label1" VerticalAlignment="Top" FontFamily="Verdana" FontWeight="Bold" Width="136" Foreground="White" Margin="18,6,0,0" Grid.Row="1" />
+                <Button Style="{StaticResource ResourceKey=btn_style}" ToolTip="Ingresa un cliente a la base de datos" ToolTipService.ShowDuration="3000" ToolTipService.HasDropShadow="True" Content="Guardar" Name="btnGuardar" Height="30" Width="95" Click="btnGuardar_Click" Grid.Row="1" Margin="59,0,0,6" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                    <Button.Tag>
+                        <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.save.png</ImageSource>
+                    </Button.Tag>
+                </Button>
+                <Button Style="{StaticResource ResourceKey=btn_style_rojo}" Content="Cancelar" ToolTip="Cancela las operaciones de ABM" ToolTipService.ShowDuration="3000" Name="btnCancelar" Height="30" Width="95" Click="btnCancelar_Click" Grid.Row="1" Margin="160,0,0,6" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                    <Button.Tag>
+                        <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.cancel.png</ImageSource>
+                    </Button.Tag>
+                </Button>
+                <TextBox Style="{StaticResource txt_style}" Text="{Binding Cli_Dni, Mode=OneWay}" Name="txtDni" MaxLength="10" Height="23" Width="128" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,9,0,0" PreviewTextInput="verificar_textbox_numerico" Grid.Row="1" />
+                <TextBox Style="{StaticResource txt_style}" Text="{Binding Cli_Apellido, Mode=OneWay}" Name="txtApellido" MaxLength="15" HorizontalAlignment="Left" Margin="160,37,0,0" VerticalAlignment="Top" Grid.Row="1" Width="128" Height="25" />
+                <TextBox Style="{StaticResource txt_style}" Text="{Binding Cli_Nombre, Mode=OneWay}" Name="txtNombre" MaxLength="15" Height="23" Width="128" HorizontalAlignment="Left" Margin="160,65,0,0" VerticalAlignment="Top" Grid.Row="1" />
+                <TextBox Style="{StaticResource txt_style}" Text="{Binding Cli_Direccion, Mode=OneWay}" Name="txtDireccion" MaxLength="30" Height="23" Width="128" HorizontalAlignment="Left" Margin="160,93,0,0" VerticalAlignment="Top" Grid.Row="1" />
+            </Grid>
+        </Border>
+        <Border Style="{StaticResource border_body}" BorderBrush="Silver" BorderThickness="1" Grid.Row="2" Height="212" HorizontalAlignment="Left" Margin="335,4,0,0" Name="border2" VerticalAlignment="Top" Width="425" Grid.ColumnSpan="2">
+            <Grid>
+                <Border Style="{StaticResource border_header}" Height="35">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10" />
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="10" />
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Apellido:" FontSize="14" FontWeight="Medium" Foreground="White" HorizontalAlignment="Left" HorizontalContentAlignment="Right" Margin="0,3,0,0" Name="label5" VerticalAlignment="Top" Grid.Column="1" />
+                        <TextBox FontSize="14" Height="28" HorizontalAlignment="Left" Margin="72,3,0,0" Name="txtPatronApellido" Style="{StaticResource txt_style}" VerticalAlignment="Top" VerticalContentAlignment="Center" Width="154" Grid.Column="1" TextChanged="txtPatronApellido_TextChanged" />
+                        <Button Content="Imprimir" Margin="311,0,0,1" Name="btnVistaPrevia" Style="{StaticResource btn_style}" VerticalAlignment="Bottom" Height="30" Width="90"  Grid.Column="1" Click="btnVistaPrevia_Click">
+                            <Button.Tag>
+                                <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.printer.png</ImageSource>
+                            </Button.Tag>
+                        </Button>
+                    </Grid>
+                </Border>
+                <ListView Background="Linen" Height="163" HorizontalAlignment="Left" ItemsSource="{Binding Source={StaticResource VISTA_CLI}}" Margin="6,41,0,0" Name="listView1" VerticalAlignment="Top" Width="411">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding Cli_Dni}" Header="DNI" Width="75" />
+                            <GridViewColumn DisplayMemberBinding="{Binding Cli_Apellido}" Header="Apellido" Width="100" />
+                            <GridViewColumn DisplayMemberBinding="{Binding Cli_Nombre}" Header="Nombres" Width="100" />
+                            <GridViewColumn DisplayMemberBinding="{Binding Cli_Direccion}" Header="Dirección" Width="125" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

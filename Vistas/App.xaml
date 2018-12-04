@@ -1,0 +1,16 @@
+﻿<Application x:Class="Vistas.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Vistas"
+             StartupUri="./WinLogin.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+               <!--COMENTAR SkinResourcesDictionary durante la edicion de las vistas-->
+               <!----> <ResourceDictionary Source="./Resources/styles/default.xaml"></ResourceDictionary>
+               <!--<local:SkinResourceDictionary DefaultSkin="./Resources/styles/default.xaml"
+                                              Black_orangeSkin="./Resources/styles/black-orangeTheme.xaml"/>-->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

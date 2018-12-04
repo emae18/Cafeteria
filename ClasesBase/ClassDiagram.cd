@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClasesBase.Proveedor">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAgAAEAAAAAAACAEAAAgAAAAgAAAAAAAAAIAACAIAAA=</HashCode>
+      <FileName>Proveedor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClasesBase.Cliente">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAEIAAgAAAAoAAAAAAAAAwAAAAMAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClasesBase.Producto">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAQAESEAEAAAAgABAABABQAIQAQAAAAA=</HashCode>
+      <FileName>Producto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClasesBase.Vendedor">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAgAAgAIAAIAAAEAAAAAAAAgAAAAAAAAAIAAAgAAAA=</HashCode>
+      <FileName>Vendedor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClasesBase.Venta">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAEAAGABAIAgAAiACCAAAACgIAIAAAAAA=</HashCode>
+      <FileName>Venta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ClasesBase.Usuario">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEEAAABAAEAAAABBAAACAUAAAgBAAAIAAAAAAAA=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesBase.HistorialLogin">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIAAAACAAAAkAAAAJAAAAAAAAAAAACAAAAAhAAAAA=</HashCode>
+      <FileName>HistorialLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesBase.ActividadLog">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAkAKAAJACAAAgAAAAIAAgAAAAAAAAAA=</HashCode>
+      <FileName>ActividadLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesBase.VentaDetalle">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAEAAAAIAQAAABABAAEAAQAIAQAAAAAAAAAA=</HashCode>
+      <FileName>VentaDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClasesBase.Gasto">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAgAIAAIgCAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Gasto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

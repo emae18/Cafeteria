@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<estados>
+  <tipo name="Pendiente"></tipo>
+  <tipo name="Pagada"></tipo>
+  <tipo name="Contabilizada"></tipo>
+  <tipo name="Anulada"></tipo>
+</estados>

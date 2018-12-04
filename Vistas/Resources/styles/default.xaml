@@ -1,0 +1,202 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--MENU STYLE --> 
+    <Style x:Key="menu" TargetType="Menu">
+        <Setter Property="Background" Value="#FF2E7FE9"></Setter>
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="Width" Value="Auto"></Setter>
+        <Setter Property="Height" Value="30"></Setter>
+    </Style>
+    
+    <Style x:Key="menuItemStyle" TargetType="{x:Type MenuItem}">
+        <Setter Property="Background" Value="#58ACFA"/>
+        <Setter Property="Height" Value="30"></Setter>
+        <Setter Property="Width" Value="100"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+        <Setter Property="StaysOpenOnClick" Value="True"></Setter>
+        <Setter Property="FontFamily" Value="Arial"></Setter>
+        <Setter Property="FontWeight" Value="Medium"></Setter>
+        <Setter Property="FontSize" Value="14"></Setter>
+        <Setter Property="Padding" Value="2"></Setter>
+        <Setter Property="Foreground" Value="White"/>
+        <Style.Triggers>
+            <Trigger Property="IsHighlighted" Value="True">
+                <Setter Property="Foreground" Value="Black"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background" Value="#045FB4"></Setter>
+                <Setter Property="Foreground" Value="DarkGray"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="dropmenu_style" TargetType="{x:Type MenuItem}">
+        <Setter Property="Foreground" Value="Black"></Setter>
+    </Style>
+    
+    <!--BOTTON-->
+    <ControlTemplate x:Key="btn_azul" TargetType="{x:Type Button}">
+        <Border x:Name="brd_azul" Background="#58ACFA" BorderBrush="#FF2E7FE9" BorderThickness="1" CornerRadius="4"
+                >
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{TemplateBinding Tag}" 
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center"
+                                MinHeight="28"
+                                Margin="0,0,0,0"/>
+                <TextBlock Text="{TemplateBinding Content}"  FontSize="15" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <!--<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>-->
+            </StackPanel>
+        </Border>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="LightSkyBlue" TargetName="brd_azul"></Setter>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="#FF2E7FE9" TargetName="brd_azul"></Setter>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Opacity" Value="0.8" TargetName="brd_azul"></Setter>
+                <Setter Property="Background" Value="#FF2E7FE9" TargetName="brd_azul"></Setter>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <Style x:Key="btn_style" TargetType="Button">
+        <Setter Property="Template" Value="{StaticResource ResourceKey=btn_azul}"></Setter>
+        <Setter Property="FontFamily" Value="Arial"></Setter>
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="FontWeight" Value="Medium"></Setter>
+        <Setter Property="FontSize" Value="15"></Setter>
+        <Setter Property="MinHeight" Value="24"></Setter>
+        <Setter Property="MinWidth" Value="24"></Setter>
+    </Style>
+
+    <ControlTemplate x:Key="btn_rojo" TargetType="{x:Type Button}">
+        <Border x:Name="brd_rojo" Background="Firebrick" BorderBrush="White" BorderThickness="1" CornerRadius="4"
+                >
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{TemplateBinding Tag}" 
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Center"
+                                MinHeight="28"
+                                Margin="0,0,0,0"/>
+                <TextBlock Text="{TemplateBinding Content}"  FontSize="15" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <!--<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>-->
+            </StackPanel>
+        </Border>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="IndianRed" TargetName="brd_rojo"></Setter>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="Tomato" TargetName="brd_rojo"></Setter>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Opacity" Value="0.8" TargetName="brd_rojo"></Setter>
+                <Setter Property="Background" Value="Firebrick" TargetName="brd_rojo"></Setter>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <Style x:Key="btn_style_rojo" TargetType="Button">
+        <Setter Property="Template" Value="{StaticResource ResourceKey=btn_rojo}"></Setter>
+        <Setter Property="FontFamily" Value="Arial"></Setter>
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="FontWeight" Value="Medium"></Setter>
+        <Setter Property="FontSize" Value="15"></Setter>
+        <Setter Property="MinHeight" Value="24"></Setter>
+        <Setter Property="MinWidth" Value="24"></Setter>
+    </Style>
+
+    <!--TEXTBLOCKS-->
+    <Style x:Key="text_shadow" TargetType="TextBlock">
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect
+                      ShadowDepth="3"
+                      Direction="225"
+                      Color="Maroon"
+                      Opacity="0.15"
+                      BlurRadius="0.0" />
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="text_title" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="14"></Setter>
+        <Setter Property="FontWeight" Value="Medium"></Setter>
+        <Setter Property="TextDecorations" Value="Underline"></Setter>
+    </Style>
+    <Style x:Key="text_descrip" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="11"></Setter>
+        <Setter Property="Margin" Value="0,10,0,0"></Setter>
+    </Style>
+    <Style x:Key="text_label" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="FontSize" Value="13"></Setter>
+        <Setter Property="FontWeight" Value="Medium"></Setter>
+        <Setter Property="Height" Value="Auto"></Setter>
+        <Setter Property="Width" Value="Auto"></Setter>
+    </Style>
+    <!--TEXTBOXES-->
+    <ControlTemplate x:Key="txt" TargetType="{x:Type TextBox}">
+        <Border x:Name="txt_brd" Background="Linen" BorderBrush="LightBlue" BorderThickness="1" CornerRadius="2">
+            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>            
+        </Border>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsFocused" Value="True">
+                <Setter Property="Background" Value="White" TargetName="txt_brd"></Setter>
+                <Setter Property="BorderBrush" Value="LightBlue" TargetName="txt_brd"></Setter>
+                <Setter Property="BorderThickness" Value="2" TargetName="txt_brd"></Setter>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Opacity" Value="0.2"></Setter>
+            </Trigger>
+            <Trigger Property="IsReadOnly" Value="True">
+                <Setter Property="Background" Value="Linen" TargetName="txt_brd"></Setter>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <Style x:Key="txt_style" TargetType="TextBox">
+        <Setter Property="Template" Value="{StaticResource ResourceKey=txt}"></Setter>
+        <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+    </Style>
+    
+    <!--LABELS-->
+    <Style x:Key="lb_style_1" TargetType="Label">
+        <Setter Property="Foreground" Value="Black"></Setter>
+        <Setter Property="FontWeight" Value="Medium"></Setter>
+        <Setter Property="Background" Value="#37000000"></Setter>
+     </Style>
+    <Style x:Key="lb_style_2" TargetType="Label">
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="FontWeight" Value="Medium"></Setter>
+        <Setter Property="HorizontalContentAlignment" Value="Right"></Setter>
+        <Setter Property="MinWidth" Value="70"></Setter>
+    </Style>
+
+    <Style x:Key="grid_style" TargetType="Grid">
+        <Setter Property="Background" Value="#97000000"></Setter>
+    </Style>
+    
+     <!--PANEL-->
+    <Style x:Key="border_body" TargetType="Border">
+        <Setter Property="Background" Value="#97000000"></Setter>
+        <Setter Property="CornerRadius" Value="10"></Setter>
+        <Setter Property="MinHeight" Value="100"></Setter>
+        <Setter Property="MinWidth" Value="200"></Setter>
+        <Setter Property="BorderThickness" Value="1"></Setter>
+        <Setter Property="BorderBrush" Value="Silver"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        <Setter Property="VerticalAlignment" Value="Top"></Setter>
+    </Style>
+    <Style x:Key="border_header" TargetType="Border">
+        <Setter Property="Background" Value="#FF2E7FE9"></Setter>
+        <Setter Property="CornerRadius" Value="10,10,0,0"></Setter>
+        <Setter Property="MinHeight" Value="30"></Setter>
+        <Setter Property="MinWidth" Value="200"></Setter>
+        <Setter Property="BorderThickness" Value="0"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+        <Setter Property="VerticalAlignment" Value="Top"></Setter>
+    </Style>
+    
+</ResourceDictionary>

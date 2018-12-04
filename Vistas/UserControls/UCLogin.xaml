@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="Vistas.UserControls.UCLogin"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Height="420" d:DesignWidth="364" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="SemiTransparentBlackBrushKey">#C5000000</SolidColorBrush>
+    </UserControl.Resources>
+    <Grid Height="413" Name="gridLogin" Width="345" Opacity="0.9" KeyDown="gridLogin_KeyDown">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="364*" />
+            <RowDefinition Height="49*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <TextBlock Foreground="White" TextAlignment="Center" FontSize="25" Background="#FF2E7FE9"  Height="53" Name="textBlock1" Text="Iniciar Sesión" VerticalAlignment="Top" FontWeight="Bold" TextWrapping="NoWrap" TextTrimming="None" FontFamily="Verdana" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" OpacityMask="Black" />
+
+        <Label Content="Nombre de Usuario:" Margin="48,176,48,0" Name="label1" FontFamily="Lucida Calligraphy" FontWeight="Bold" Height="59" VerticalAlignment="Top" Grid.ColumnSpan="2" Opacity="2" Background="#97000000" BorderBrush="Black" OpacityMask="Blue" FontSize="16" Foreground="#FF7AC2FF" FontStretch="Normal" HorizontalContentAlignment="Center"></Label>
+        <TextBox Style="{StaticResource txt_style}" TabIndex="0" MaxLength="15" TextAlignment="Center" Height="23" Margin="65,204,66,0" Name="txtUsuario" VerticalAlignment="Top" BorderBrush="#32000000" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" />
+        <Label Content="Contraseña:" Height="58" HorizontalAlignment="Left" Margin="48,241,0,0" Name="label2" VerticalAlignment="Top" Width="249" FontFamily="Lucida Calligraphy" FontWeight="Bold" Foreground="#FF7AC2FF" Grid.ColumnSpan="2" Background="#97000000" BorderBrush="Black" OpacityMask="Blue" FontSize="16" Opacity="2" ClipToBounds="False" FontStyle="Normal" HorizontalContentAlignment="Center" />
+        <PasswordBox TabIndex="1" MaxLength="20" Height="23" HorizontalAlignment="Left" Margin="65,268,0,0" Name="pbContraseña" VerticalAlignment="Top" Width="214" BorderBrush="#32000000" Background="Linen" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <Image Height="100" HorizontalAlignment="Left" Margin="122,70,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/Vistas;component/Resources/Images/login.png" Grid.ColumnSpan="2" OpacityMask="#AD000000" />
+        <Button Background="#A5000000" BorderBrush="{x:Null}" Content="Ingresar" FontSize="16" FontWeight="Bold" Foreground="White" Height="45" Margin="22,320,0,48" Name="btnIngresar" TabIndex="3" Width="150" Click="btnIngresar_Click" MouseLeave="btnIngresar_MouseLeave" Grid.RowSpan="2" FontFamily="Lucida Calligraphy" MouseEnter="btnIngresar_MouseEnter" />
+        <Button BorderBrush="{x:Null}" Content="Salir" FontSize="16" FontWeight="Bold" Foreground="White" Height="45" Margin="6,320,16,48" Name="btnSalir" TabIndex="4" Width="150" Grid.Column="1" Click="btnSalir_Click" MouseLeave="btnSalir_MouseLeave" Grid.RowSpan="2" FontFamily="Lucida Calligraphy" MouseEnter="btnSalir_MouseEnter" Background="#A5000000" />
+        <Grid.Background>
+            <ImageBrush ImageSource="/Vistas;component/Resources/Images/backgroundLogin.jpg" Stretch="Fill" TileMode="None" />
+        </Grid.Background>
+    </Grid>
+</UserControl>

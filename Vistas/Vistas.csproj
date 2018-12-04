@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C6FBA8D-1513-42CD-9A92-078F79837556}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vistas</RootNamespace>
+    <AssemblyName>Vistas</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Alon Nami\Documents\Visual Studio 2010\Cafetería 2.0\lpoo2grupo1\Cafexe\Release\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C048E78CD2BAE856CB8CDBB99D29E3ECB4CE5AB8</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Vistas_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ABM\ABMCliente.xaml.cs">
+      <DependentUpon>ABMCliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\ABMProducto.xaml.cs">
+      <DependentUpon>ABMProducto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\ABMProveedor.xaml.cs">
+      <DependentUpon>ABMProveedor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\ABMUsuario.xaml.cs">
+      <DependentUpon>ABMUsuario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\ABMVendedor.xaml.cs">
+      <DependentUpon>ABMVendedor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\Vista Previa\VistaPrevia.xaml.cs">
+      <DependentUpon>VistaPrevia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\Validators\ValidarProducto.xaml.cs">
+      <DependentUpon>ValidarProducto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\Vista Previa\VPProductos.xaml.cs">
+      <DependentUpon>VPProductos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\Configuracion.xaml.cs">
+      <DependentUpon>Configuracion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gastos\WinGastos.xaml.cs">
+      <DependentUpon>WinGastos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion.xaml.cs">
+      <DependentUpon>Presentacion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reproductor\winVideo.xaml.cs">
+      <DependentUpon>winVideo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SkinResourceDictionary.cs" />
+    <Compile Include="UserControls\UC_Conometro.xaml.cs">
+      <DependentUpon>UC_Conometro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\ComprobanteDeVenta.xaml.cs">
+      <DependentUpon>ComprobanteDeVenta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ConversorDeEstados.cs" />
+    <Compile Include="ListaDeEstados.xaml.cs">
+      <DependentUpon>ListaDeEstados.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCLogin.xaml.cs">
+      <DependentUpon>UCLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCUserLogueado.xaml.cs">
+      <DependentUpon>UCUserLogueado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\WinGanancia.xaml.cs">
+      <DependentUpon>WinGanancia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinConfirms\WinConfirmacion.xaml.cs">
+      <DependentUpon>WinConfirmacion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="about.xaml.cs">
+      <DependentUpon>about.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinLogin.xaml.cs">
+      <DependentUpon>WinLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas\WinVentas.xaml.cs">
+      <DependentUpon>WinVentas.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ABM\ABMCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ABM\ABMProducto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ABM\ABMProveedor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ABM\ABMUsuario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ABM\ABMVendedor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ABM\Vista Previa\VistaPrevia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ABM\Validators\ValidarProducto.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ABM\Vista Previa\VPProductos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Configuracion\Configuracion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Gastos\WinGastos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Presentacion.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Reproductor\winVideo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\styles\black-orangeTheme.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\UC_Conometro.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ventas\ComprobanteDeVenta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListaDeEstados.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\styles\default.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\templates\ABMProductoTemplate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\templates\ABMProveedorTemplate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\UCLogin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControls\UCUserLogueado.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ventas\WinGanancia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinConfirms\WinConfirmacion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="about.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinLogin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Ventas\WinVentas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Vistas_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\unju.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="data\Colores.xml" />
+    <Resource Include="data\Categorias.xml" />
+    <Resource Include="data\Roles.xml" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.door.enter.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.book.open.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.book.open.information.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.door.leave.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.settings.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.home.garage.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.money.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.information.circle.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.arrow.left.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.control.rewind.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.control.rewind.variant.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.control.fastforward.variant.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.control.fastforward.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.save.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.cancel.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.printer.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.checkmark.pencil.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.add.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.draw.pencil.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.delete.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.disk.upload.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.clean.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.check.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.edit.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.cart.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.control.play.live.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.folder.open.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.control.stop.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.control.pause.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.control.play.png" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.fullscreen.png" />
+    <Resource Include="Resources\Images\Icons\light\appbar.control.stop.png" />
+    <Resource Include="Resources\Images\Icons\light\appbar.control.play.png" />
+    <Resource Include="Resources\Images\Icons\light\appbar.control.pause.png" />
+    <Resource Include="Resources\Images\Icons\light\appbar.control.rewind.variant.png" />
+    <Resource Include="Resources\Images\Icons\light\appbar.control.fastforward.variant.png" />
+    <Resource Include="Resources\Images\Icons\light\appbar.fullscreen.png" />
+    <Resource Include="Resources\Images\Icons\app-icon.ico" />
+    <Resource Include="Resources\Images\Icons\dark\appbar.chevron.right.png" />
+    <Resource Include="Resources\Images\cafe.jpg" />
+    <Resource Include="Resources\Images\cafw.png" />
+    <Content Include="Resources\Videos\naturaleza.mp4" />
+    <Resource Include="Resources\Images\DKmuebles.png" />
+    <Resource Include="Resources\Images\IMG-Productos\escritorio-negro.jpg" />
+    <Resource Include="Resources\Images\IMG-Productos\juegosillas-blanco.jpg" />
+    <Resource Include="Resources\Images\IMG-Productos\mesa-negro.jpg" />
+    <Resource Include="Resources\Images\IMG-Productos\mesaluz-gris.jpg" />
+    <Resource Include="Resources\Images\IMG-Productos\ropero-marron.jpg" />
+    <Resource Include="Resources\Images\IMG-Productos\sillon-marron.jpg" />
+    <Content Include="Resources\Sounds\au.mp3" />
+    <Resource Include="Resources\Images\planet.png" />
+    <Resource Include="Resources\Images\balon.jpg" />
+    <Resource Include="Resources\Images\cat.png" />
+    <Resource Include="Resources\Images\cocktail.png" />
+    <Resource Include="Resources\Images\dog.jpg" />
+    <Resource Include="Resources\Images\scene.jpg" />
+    <Resource Include="Resources\Images\bg5.jpg" />
+    <Resource Include="Resources\Images\bgmenu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\backgroundLogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="data\Estados.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClasesBase\ClasesBase.csproj">
+      <Project>{9EBFDA0D-D455-4BA9-B013-7012CB963E1F}</Project>
+      <Name>ClasesBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

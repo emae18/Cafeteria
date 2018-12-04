@@ -1,0 +1,29 @@
+﻿<Window x:Class="Vistas.Presentacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Presentacion" Height="319" Width="461" Loaded="Window_Loaded" AllowsTransparency="True" Background="Transparent" WindowStyle="None" VerticalAlignment="Center" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/Vistas;component/Resources/Images/Icons/app-icon.ico">
+    
+    <Grid Height="258" Width="424">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="224*" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="379*" />
+            <ColumnDefinition Width="10" />
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Vistas;component/Resources/Images/DKmuebles.png" />
+        </Grid.Background>
+        <Grid.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="-90" RenderingBias="Performance" ShadowDepth="3"/>
+        </Grid.Effect>
+        <MediaElement Height="46" HorizontalAlignment="Left" Margin="308,12,0,0" Name="meAudio" VerticalAlignment="Top" Width="27" OpacityMask="{x:Null}" Grid.Column="1"></MediaElement>
+        <Button Style="{StaticResource ResourceKey=btn_style}" Content="Ingresar" Margin="0,0,0,2" Name="btnInicio" Click="btnInicio_Click" Grid.Column="1" HorizontalAlignment="Right" Width="90" Height="30" VerticalAlignment="Bottom">
+            <Button.Tag>
+                <ImageSource>/Vistas;component/Resources/Images/Icons/dark/appbar.door.enter.png</ImageSource>
+            </Button.Tag>
+        </Button>
+    </Grid>
+</Window>

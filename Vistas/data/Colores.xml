@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<colores>
+  <tipo name="--SELECCIONAR--" value=""></tipo>
+  <tipo name="Blanco" value="Blanco"></tipo>
+  <tipo name="Negro" value="Negro"></tipo>
+  <tipo name="Gris" value="Gris"></tipo>
+  <tipo name="Rojo" value="Rojo"></tipo>
+  <tipo name="Rosado" value="Rosado"></tipo>
+  <tipo name="Azul" value="Azul"></tipo>
+  <tipo name="Celeste" value="Celeste"></tipo>
+  <tipo name="Amarillo" value="Amarillo"></tipo>
+  <tipo name="Verde" value="Verde"></tipo>
+  <tipo name="Verde claro" value="Verde claro"></tipo>
+  <tipo name="Verde oscuro" value="Verde oscuro"></tipo>
+  <tipo name="Amarillo" value="Amarillo"></tipo>
+  <tipo name="Naranja" value="Naranja"></tipo>
+  <tipo name="Púrpura" value="Púrpura"></tipo>
+  <tipo name="Violeta" value="Violeta"></tipo>
+  <tipo name="Marrón" value="Marrón"></tipo>  
+</colores>

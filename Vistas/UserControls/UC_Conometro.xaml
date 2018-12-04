@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Vistas.UserControls.UC_Conometro"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Height="30" Width="90">
+    <Grid MaxHeight="30" MinWidth="90">
+        <StackPanel Orientation="Horizontal">
+            <Image Source="/Vistas;component/Resources/Images/Icons/dark/appbar.clock.png" Height="30" Width="30"></Image>
+            <TextBlock MaxHeight="30" FontSize="14" Foreground="White" FontWeight="Medium" Background="Transparent" TextAlignment="Left" Name="txtTimer" VerticalAlignment="Center" />
+        </StackPanel>
+        
+    </Grid>
+</UserControl>

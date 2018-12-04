@@ -1,0 +1,123 @@
+﻿<Window x:Class="Vistas.ABM.Validators.ValidarProducto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:svc="clr-namespace:ClasesBase.ABM;assembly=ClasesBase"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        Title="Validar Producto" Height="300" Width="362" ResizeMode="NoResize" SizeToContent="Width">
+
+    <Window.Resources>
+        <ObjectDataProvider
+            x:Key="DATA_PROD"
+            ObjectType="{x:Type svc:TrabajarProducto}"
+            MethodName="traerProducto">
+            <ObjectDataProvider.MethodParameters>
+                <system:String>1</system:String>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        
+        <ControlTemplate x:Key="TextBoxErrorTemplate">
+            <DockPanel>
+                <Ellipse DockPanel.Dock="Right" Margin="2,0" Width="10" Height="10">
+                    <Ellipse.Fill>
+                        <LinearGradientBrush>
+                            <GradientStop Color="#11FF1111" Offset="0" />
+                            <GradientStop Color="#FFFF0000" Offset="1" />
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <AdornedElementPlaceholder />
+            </DockPanel>
+        </ControlTemplate>
+        
+        <Style x:Key="EstiloError" TargetType="TextBox">
+            <Setter Property="Margin" Value="4,4,10,4" />
+            <Setter Property="Validation.ErrorTemplate" Value="{StaticResource TextBoxErrorTemplate}" />
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter Property="ToolTip">
+                        <Setter.Value>                            
+                            <Binding Path="(Validation.Errors)[0].ErrorContent" RelativeSource="{x:Static RelativeSource.Self}" />
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="Linen">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="141*" />
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="138*" />
+            <ColumnDefinition Width="10" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10" />
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="10" />
+        </Grid.RowDefinitions>
+        <Label Content="Código:" Grid.Row="2" Height="25" Name="label1" VerticalAlignment="Top" Grid.Column="1" HorizontalContentAlignment="Center" />
+        <Label Content="Categoría:" Grid.Column="1" Grid.Row="3" Height="25" HorizontalAlignment="Left" Name="label2" VerticalAlignment="Top" Width="152" HorizontalContentAlignment="Center" />
+        <Label Content="Descripción:" Grid.Column="1" Grid.Row="5" Height="25" HorizontalAlignment="Left" Name="label3" VerticalAlignment="Top" Width="152" HorizontalContentAlignment="Center" />
+        <Label Content="Color:" Grid.Column="1" Grid.Row="3" Height="25" HorizontalAlignment="Left" Name="label4" VerticalAlignment="Top" Width="152" Margin="0,33,0,0" Grid.RowSpan="2" HorizontalContentAlignment="Center" />
+        <Label Content="Precio:" Grid.Column="1" Grid.Row="6" Height="25" HorizontalAlignment="Left" Name="label5" VerticalAlignment="Top" Width="152" HorizontalContentAlignment="Center" />
+        <TextBox Name="txtCodigo" Grid.Column="3" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,-1,0,0" TextChanged="txtCodigo_TextChanged">
+            <TextBox.Text>
+                <Binding Source="{StaticResource DATA_PROD}"
+                         UpdateSourceTrigger="PropertyChanged"                         
+                         Path="MethodParameters[0]" BindsDirectlyToSource="True" />
+            </TextBox.Text>
+        </TextBox>
+        <TextBox  Style="{StaticResource EstiloError}" Name="txtCategoria" Grid.Column="3" Grid.Row="3" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" IsReadOnly="True" Grid.ColumnSpan="2" IsEnabled="True" Margin="1,0,0,0">
+            <TextBox.Text>
+                <Binding Source="{StaticResource DATA_PROD}" Path="Prod_Categoria" UpdateSourceTrigger="PropertyChanged"
+                         ValidatesOnExceptions="true" ValidatesOnDataErrors="true"/>
+            </TextBox.Text>
+        </TextBox>
+        <TextBox Style="{StaticResource EstiloError}" Name="txtColor" Grid.Column="3" Grid.Row="3" Height="25" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="139" IsReadOnly="True" Grid.ColumnSpan="2" IsEnabled="True" Margin="0,33,0,0" Grid.RowSpan="2">
+            <TextBox.Text>
+                <Binding Source="{StaticResource DATA_PROD}" Path="Prod_Color" UpdateSourceTrigger="PropertyChanged"
+                         ValidatesOnExceptions="true" ValidatesOnDataErrors="true"/>
+            </TextBox.Text>
+        </TextBox>
+        <TextBox Style="{StaticResource EstiloError}" Name="txtDescrip" Grid.Column="3" Grid.Row="5" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="139" IsReadOnly="True" Grid.ColumnSpan="2" IsEnabled="True" Margin="0,1,0,0">
+            <TextBox.Text>
+                <Binding Source="{StaticResource DATA_PROD}"  Path="Prod_Descripcion" UpdateSourceTrigger="PropertyChanged"
+                         ValidatesOnExceptions="true" ValidatesOnDataErrors="true"/>
+            </TextBox.Text>
+        </TextBox>
+        <TextBox Style="{StaticResource EstiloError}" Name="txtPrecio" Grid.Column="3" Grid.Row="6" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Width="139" IsReadOnly="True" Grid.ColumnSpan="2" IsEnabled="True" Margin="1,0,0,0">
+            <TextBox.Text>
+                <Binding Source="{StaticResource DATA_PROD}" Path="Prod_Precio" UpdateSourceTrigger="PropertyChanged"
+                         ValidatesOnExceptions="true" ValidatesOnDataErrors="true"/>
+            </TextBox.Text>
+        </TextBox>
+        
+        <Grid Background="#97000000" Grid.ColumnSpan="6" Grid.Row="7" Grid.RowSpan="2" Height="44" HorizontalAlignment="Left" Name="grid1" VerticalAlignment="Top" Width="340">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15" />
+                <ColumnDefinition Width="144*" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="10" />
+                <ColumnDefinition Width="145*" />
+                <ColumnDefinition Width="15" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5" />
+                <RowDefinition Height="33*" />
+                <RowDefinition Height="5" />
+            </Grid.RowDefinitions>
+            <Button Content="Aceptar" Grid.Column="1" Height="34" HorizontalAlignment="Left" Name="button1" VerticalAlignment="Top" Width="100" Margin="105,0,0,0" Grid.Row="1" Click="button1_Click" Grid.ColumnSpan="4" />
+        </Grid>
+        <Label Content="Validar producto" Foreground="White" FontSize="16" FontWeight="Bold" Background="#FF2E7FE9" Grid.RowSpan="2" Height="38" HorizontalAlignment="Left" Name="label6" VerticalAlignment="Top" Grid.ColumnSpan="6" Width="340" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontStretch="Normal" />
+    </Grid>
+</Window>
