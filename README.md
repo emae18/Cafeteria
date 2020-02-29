@@ -1,36 +1,5 @@
-﻿# README #
+﻿# Sistema De Ventas para Cafeteria #
 
-TP1 ✓
-TP2 ✓
-TP3 ✓
-TP4 ✓
-TP5 ✓
-TP6 ✓
+Sistema hecho en WPF, con C# y reportes...
 
-TP Final In progress...
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Puedes abrirlo desde VS2010 ###
